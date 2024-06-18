@@ -1,0 +1,10 @@
+Ejercicio 1 
+seg=int(input("Ingrese la cantidad de segundos:"))
+
+minu=seg//60
+sobra_minu=seg%60
+
+hora=minu//60
+sobra_hora=minu%60
+
+print(f"{hora}:{sobra_hora}:{sobra_minu}")
